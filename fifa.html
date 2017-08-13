@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="link.css">
+
+<style>
+.container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+   overflow-y: scroll;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1.1s ease;
+  background-color: #000000;
+}
+
+.container:hover .overlay {
+  opacity: 0.6;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body bgcolor="grey">
+<div class="container">
+    <img src="fifa.jpg" alt="FIFA" class="image" height="100%" width="100%">
+      <div class="overlay">
+      <div id="mySidenav" class="sidenav">
+  <a href="lan.html" id="back">Back&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> <img id="img" src="back2.png" height="20" width="10"></span></a>
+  <a href="index.html" id="home">Home &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> <img id="img" src="home.png" height="20" width="20"></span></a> 
+  <a href="register.html" id="register">Register &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> <img id="img" src="register1.png" height="20" width="20"></span></a>  
+  <a href="events.html" id="Events">Events&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> <img id="img" src="event.png" height="20" width="20"></span></a>
+  </div>
+        <div class="text">
+        <p><h1 align="center">Lan gaming</h1></p>
+
+        <p align="center">It is a computer gaming event played on LAN</p><br>
+        <br>
+        <br><p><b><font color="Green" size="10">FIFA</b></p></font>
+
+        <font color="red" size="6">Rules & Regulations</font>
+
+        <ul type="disc">
+          <li>Half Time 4 Minutes.</li>
+		  <li>National Teams Not Allowed.</li>
+		  <li>Finals:&nbsp;Best Of Three.</li>
+		  <li>Substitution only at Halftime.</li>
+		  <li>If the match ends in a draw the winner will be decided by GOLDEN Goal.</li>
+       </ul>
+<br>
+  <br>
+
+<table>
+  <tr>
+   <th>Entry Fees(Rs)</th>
+    <th>Date</th>
+    <th>Time</th>
+    <th>Venue</th>
+  </tr>
+  <tr>
+    <td>100</td>
+    <td>19<sup>th</sup>Aug 2017</td>
+    <td>10:00 AM</td>
+    <td>I .T . Lab</td>
+  </tr>
+</table>  
+      <br>
+        </div>
+      </div>
+</div>
+</body>
+</html>
